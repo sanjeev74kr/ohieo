@@ -1,0 +1,103 @@
+.welcome-section{
+    width:100%;
+    height: 85vh;
+    background-color: white;
+    display: flex;
+}
+
+.welcome-left-part{
+    width:40%;
+    margin-left: 6.5%;  
+}
+
+.welcome-text{
+font-size: 2rem;
+font-weight: bold;
+margin-top: 8%;
+}
+
+.explore-menu-button{
+    text-transform: uppercase;
+    margin-top: 15%;
+    background-color:#ffc107;
+    border-color: #ffc107;
+    padding: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 0.2rem;
+    color: rgb(52, 51, 51);
+    box-shadow: none;
+    outline: none;
+}
+
+.welcome-right-part{
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  position: relative;
+}
+
+.ellipse3{
+ position: absolute;
+ width:60%;
+ top:10%;
+ opacity: 0.5;
+ animation: rotateClockwise 30s linear infinite;
+
+}
+
+.ellipse2{
+width:50%;
+position: absolute;
+top:16%;
+left:5%;
+opacity: 0.5;
+animation: rotateCounterclockwise 30s linear infinite;
+
+}
+
+.ellipse1{
+    width:40%;
+    position: absolute;
+    top:22%;
+    left:10%;
+    opacity: 0.5;
+    animation: rotateClockwise 30s linear infinite;
+}
+
+.yellow-card{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    background-color: #ffc107;
+    top:15%;
+    right:0%;
+    border-top-left-radius: 12%;
+    border-bottom-left-radius: 12%;
+    z-index: 1;
+}
+
+.yellow-card-text{
+position: absolute;
+top:10%;
+left:22%; ;
+z-index: 2;
+transform: rotate(90deg);
+font-size: 5rem;
+font-weight: bold;
+color: rgb(255, 255, 255);
+opacity: 0.5;
+}
+
+.welcome-gesture{
+    width:36%;
+    height: auto;
+    position: absolute;
+    top:22%;
+    left:12%;
+    z-index:3;
+    object-fit: contain;
+    
+}

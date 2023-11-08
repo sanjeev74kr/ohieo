@@ -1,0 +1,44 @@
+
+.section-2{
+    background-color: #10bcca;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.home-sec-2-bg-img{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.home-sec-2-text-container{
+    position: absolute;
+    top:25%;
+    left: 20%;
+}
+
+.home-sec-2-title{
+text-transform: uppercase;
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 2rem;
+}
+.home-sec-2-subtitle{
+  color: white;
+  margin-bottom: 0.8rem;
+  
+}
+
+.home-sec-2-button{
+color: #ffc129;
+background-color: black;
+border-color: black;
+font-size: 1rem;
+text-transform:uppercase;
+font-weight: bold;
+padding: 2%;
+}
